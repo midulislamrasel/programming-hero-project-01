@@ -4,14 +4,15 @@
     font-family: 'Roboto', sans-serif;
 }
 button{
-    font-size: 18px;
+    font-size: 22px;
     margin-top: 15px;
-    padding: 10px 15px;
+    padding: 20px 41px;
     border-radius: 10px;
     color: white;
     border: none;
-    background-color: #FF5959;
+    background-color: rgb(255, 89, 89);
 }
+/* -------------Header-------------- */
 header{
     background-image: url(/img/donation1.jpg);
     background-position: center;
@@ -29,19 +30,26 @@ header{
     margin-bottom: 20px;
 }
 .title-areya p{
-    font-size: 16px;
+    font-size: 18px;
     line-height: 30px;
     letter-spacing: 1.5px;
     color: rgb(255, 255, 255);
 }
-
+/* ----------------Donate Day---------------------------- */
 .donate-day{
     text-align: center;
     width: 750px;
     margin: auto;
     margin-top: 57px;
 }
-
+.donate-day h2{
+    font-size: 30px;
+}
+.donate-day p{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin: 30px;
+}
 .amount-list{
     display:flex;
     padding: 20px;
@@ -55,6 +63,7 @@ header{
     font-size: 25px;
     font-weight: bold;
 }
+/* ------------------Our Donate amount-------------------------- */
 .donate-amount{
     text-align: center;
     justify-content: center;
@@ -69,21 +78,71 @@ input[type="number"] {
     border-bottom: 2px solid #e0e0e0;
     text-align: center;
 }
+/* ------------------Our Donate Plan-------------------------- */
 .donate-plan{
+    text-align: center;
     width: 70%;
     margin: auto;
-    margin-top: 45px;
+    margin-top: 50px;
 }
+.donate-plan h1{
+    font-size: 30px;
+}
+.donate-plan p{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin: 30px;
+}
+
 .donate-plan-list{
     display: flex;
 }
-
+.donate-plan h2{
+    margin: 20px;
+}
+.donate-plan p{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin: 30px;
+}
 .plan-list{
     width: 400px;
     background-color: #e4cccc70;
     padding: 50px 30px;
     margin: 20px;
 }
+/* ------------------------Donation Live ------------------------------ */
+.donation-live{
+    width: 72%;
+    margin: auto;
+    display: flex;
+    padding: 60px;
+}
+
+.donation-live-titke{
+    width: 50;
+    padding: 60px;
+}
+.donation-live-titke h1{
+    font-size: 35px;
+}
+.donation-live-titke p{
+    font-size: 18px;
+    letter-spacing: 1.2px;
+    margin: 30px
+}
+.donation-live-img{
+    width: 50%;
+    padding: 60px;
+}
+.donation-live-img img{
+    width: 450px;
+}
+
+
+
+
+/* ------------------------- UPdates--------------------------- */
 .update-part{
     text-align: center;
     width: 500px;
@@ -94,7 +153,7 @@ input[type="number"] {
     background-color: #FFF4D6;
     text-align: center;
     width: 60%;
-    padding: 50px;
+    padding: 90px;
     border-radius: 5px;
     margin: auto;
 }
@@ -105,7 +164,15 @@ input[type="number"] {
     width: 344px;
     border-radius: 10px;
 }
-
+.eml-btn{
+    font-size: 15px;
+    color: white;
+    border: none;
+    padding: 13px;
+    margin-left: -14px;
+    background-color: rgb(255, 89, 89);
+}
+/* -----------------Footer----------------------- */
 footer{
     background-color: #0B0D17;
     height: 150px;
