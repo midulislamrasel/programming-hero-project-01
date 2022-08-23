@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+    font-size: 18px;
+    margin-top: 15px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #FF5959;
+}
+header{
+    background-image: url(/img/donation1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title-areya{
+    text-align: center;
+    padding: 250px 0px;
+}
+.title-areya h1{
+    font-size: 75px;
+    color: #ffffffeb;
+    margin-bottom: 20px;
+}
+.title-areya p{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    color: rgb(255, 255, 255);
+}
+
+.donate-day{
+    text-align: center;
+    width: 750px;
+    margin: auto;
+    margin-top: 57px;
+}
+
+.amount-list{
+    display:flex;
+    padding: 20px;
+    width: 700px;
+    margin: auto;
+}
+.list{
+    padding: 30px 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    width: 250px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.donate-amount{
+    text-align: center;
+    justify-content: center;
+}
+input[type="number"] {
+    margin-top: 60px;
+    width: 500px;
+    padding: 7px 30px;
+    /* border: navajowhite; */
+    border: none;
+    font-size: 19px;
+    border-bottom: 2px solid #e0e0e0;
+    text-align: center;
+}
+.donate-plan{
+    width: 70%;
+    margin: auto;
+    margin-top: 45px;
+}
+.donate-plan-list{
+    display: flex;
+}
+
+.plan-list{
+    width: 400px;
+    background-color: #e4cccc70;
+    padding: 50px 30px;
+    margin: 20px;
+}
+.update-part{
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    padding: 50px 10px
+}
+.contact-email{
+    background-color: #FFF4D6;
+    text-align: center;
+    width: 60%;
+    padding: 50px;
+    border-radius: 5px;
+    margin: auto;
+}
+.contact-email input{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    width: 344px;
+    border-radius: 10px;
+}
+
+footer{
+    background-color: #0B0D17;
+    height: 150px;
+    text-align: center;
+    margin-top: 150px;
+}
+footer h1{
+    color: #FF5959;
+    padding: 25px;
+}
+footer p{
+    color: white;
+}
