@@ -14,7 +14,7 @@ button{
 }
 /* -------------Header-------------- */
 header{
-    background-image: url(/img/donation1.jpg);
+    background-image: url(./img/donation13.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -139,9 +139,26 @@ input[type="number"] {
     width: 450px;
 }
 
-
-
-
+/* ------------------------------------------ */
+.improve{
+    width: 90rem;
+    padding: 50px;
+    margin: auto;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 20px;
+}
+.fa-brands{
+    font-size: 22px;
+}
+.fa-instagram, .fa-youtube{
+    color: rgb(202, 59, 59);
+}
+.fa-twitter{
+    color: rgb(0, 197, 223);
+}
 /* ------------------------- UPdates--------------------------- */
 .update-part{
     text-align: center;
